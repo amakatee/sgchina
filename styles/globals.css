@@ -1,0 +1,154 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --main-color: #647dee;
+    --main-dark: #434343;
+
+}
+.dark-text {
+    color: var(--main-dark);
+}
+.dark-text:hover {
+    color: var(--main-color);
+    transition: .2s ease-in-out;
+}
+.active-text {
+    color: var(--main-color);
+    transition: .2s ease-in;
+}
+
+.flex-custom-toggle{
+    display: flex;
+    flex-direction: column ;
+    padding-top: 30%;
+   
+    
+   
+}
+.flex-custom-toggle > * {
+    inset: 0 0 0 30%;
+    margin-left: 20%;
+    margin-bottom: 1rem;
+    letter-spacing: .5px;
+    font-size: 1.2rem;
+    cursor:pointer;
+   
+
+}
+.section-header-title {
+    color: var(--main-color);
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+}
+
+#logo {
+    font-size: 1.4rem;
+    letter-spacing: .9px;
+    font-weight: 400;
+}
+.header__button {
+   border: 2px solid var(--main-color);
+   font-weight: 500;
+   letter-spacing: .3px;
+   border-radius: 2rem;
+   padding: .6em 1.3em;
+   color: var(--main-color);
+   transition: .8s ease-in-out;
+   font-size: 1rem;
+ 
+    
+}
+.header__button:hover {
+    background-color: #7f53ac;
+    background-image: linear-gradient(315deg, #7f53ac 0%, #647dee 74%);
+    color: white;
+    transition: .7s ease;
+}
+
+/* Home starts */
+.home-title {
+    font-size: 2.4rem;
+    letter-spacing: .7px;
+}
+.home-subtitle {
+    font-size: 1.3rem;
+    color: rgb(92, 91, 91);
+}
+.home-img {
+    width: 20rem;
+}
+/* Home Ends */
+/*Features Satrts */
+.features-custom {
+   width: 100%;
+   min-height: 60vh;
+   background-image: linear-gradient(315deg, #7f53ac 0%, #647dee 74%);
+    color: white;
+    display: flex;
+
+
+
+   
+}
+.feture-item-custom {
+   
+  
+    flex: 1;
+    text-align: center;
+}
+.feature-item-title {
+    margin-bottom: .9rem;
+    line-height: 1.4rem;
+    font-size: 1.5rem;
+    letter-spacing: .9px;
+    font-weight: 300;
+}
+.feature-item-desc{
+    font-size: 1.1rem;
+    letter-spacing: .6px;
+    font-weight: 300;
+}
+/* Features Ends */
+
+@media(max-width: 768px){
+    .header__button {
+        font-size: .9rem;
+    }
+    .mobile-hidden {
+        display: none;
+
+    }
+    .home-title {
+        font-size: 1.5rem;
+    }
+    .home-subtitle {
+     font-size: 1rem;
+    }
+    .mobile-fetures  {
+        display: grid ;
+        grid-template-columns: 1fr;
+        
+    }
+    .feture-item-custom {
+        width: 80vw;
+        min-height: 25vh;
+        display: grid;
+        place-content: center;
+       
+        margin: auto;
+        
+    }
+
+}
+
+@media(min-width: 768px){
+    .mobile-toggle {
+        display: none;
+
+    }
+
+}
