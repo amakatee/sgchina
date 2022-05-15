@@ -10,7 +10,7 @@ const Features = () => {
         <SectionHeader text="How does it Work?" />
          <div className=' features-custom'>
              
-           <div className='w-[90vw]  mx-auto flex items-center justify-around gap-9 mobile-fetures' >
+           <div className='w-[90vw]  mx-auto flex items-center gap-10 justify-around mobile-fetures' >
                 {featuresData.map((item) => (
                     <FeaturesItem key={item.id} item={item} />
                 ))}

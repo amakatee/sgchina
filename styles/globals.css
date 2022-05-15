@@ -43,6 +43,17 @@
     font-weight: bold;
     text-transform: uppercase;
     letter-spacing: 1.5px;
+  
+}
+.section-header-subtitle {
+    color: var(--main-dark);
+    width: 50vw;
+    margin: auto;
+    font-size: .7rem;
+    margin-top: 1rem;
+    font-weight: 400;
+    letter-spacing: .5px;
+    text-transform: uppercase;
 }
 
 #logo {
@@ -63,10 +74,12 @@
     
 }
 .header__button:hover {
-    background-color: #7f53ac;
-    background-image: linear-gradient(315deg, #7f53ac 0%, #647dee 74%);
+    background-color: #8053ac33;
+    background-image: linear-gradient(315deg, #8053ac48 0%, #647deee3 74%);
     color: white;
-    transition: .7s ease;
+    transition: .3s ease-in-out;
+    border: 1px solid transparent;
+    transform: scale(1.05);
 }
 
 /* Home starts */
@@ -85,10 +98,15 @@
 /*Features Satrts */
 .features-custom {
    width: 100%;
-   min-height: 60vh;
+   min-height: 70vh;
+  
    background-image: linear-gradient(315deg, #7f53ac 0%, #647dee 74%);
     color: white;
     display: flex;
+    padding-block: 2rem;
+    justify-content: space-around;
+    
+  
 
 
 
@@ -98,21 +116,102 @@
    
   
     flex: 1;
-    text-align: center;
+    /* display: flex;
+    justify-content: space-around; */
+    text-align: start;
+    padding-block: 2vh;
+
 }
 .feature-item-title {
     margin-bottom: .9rem;
     line-height: 1.4rem;
-    font-size: 1.5rem;
-    letter-spacing: .9px;
-    font-weight: 300;
+    text-transform: uppercase;
+    font-size: 1rem;
+    letter-spacing: 2px;
+    font-weight: 400;
+}
+.feature-item-title span {
+    font-weight: bold;
+
 }
 .feature-item-desc{
-    font-size: 1.1rem;
-    letter-spacing: .6px;
+    font-size: .95rem;
+    letter-spacing: 1.1px;
     font-weight: 300;
 }
 /* Features Ends */
+
+
+/* Pricing Sections starts */
+.cards-row {
+    max-width: 1100px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+
+
+}
+.card {
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    cursor: pointer;
+    padding: 10% 15%;
+    border-radius: 10px;
+    text-align: center;
+    color: var(--main-dark);
+
+
+
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: space-around;
+    
+
+   
+}
+.card:hover {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transform: scale(1.03);
+    transition: all .3s ease;
+
+}
+.card-destination {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+    text-transform: uppercase;
+    letter-spacing: .5px;
+}
+.card-price {
+    font-size: 1rem;
+    letter-spacing: .1px;
+   line-height: 1.9rem;
+   margin-bottom: 1.5rem;
+}
+.card-price > * span {
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+.card-description {
+    margin-bottom:2rem;
+    line-height: 1.6rem;
+    text-align: center;
+}
+.shipIn {
+    font-weight: bold;
+    margin-bottom: .5rem;
+  
+}
+/* Pricing Section Ends */
+
+
+@media(min-width: 768px){
+    .mobile-toggle {
+        display: none;
+
+    }
+
+}
 
 @media(max-width: 768px){
     .header__button {
@@ -135,20 +234,12 @@
     }
     .feture-item-custom {
         width: 80vw;
-        min-height: 25vh;
+        
         display: grid;
         place-content: center;
        
         margin: auto;
         
-    }
-
-}
-
-@media(min-width: 768px){
-    .mobile-toggle {
-        display: none;
-
     }
 
 }

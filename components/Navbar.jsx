@@ -39,8 +39,8 @@ const Navbar = ({initialSelected = 'Home'}) => {
              />
             
             <NavOption
-            text='Features'
-            isActive={Boolean(selected==='Features')}
+            text='About Us'
+            isActive={Boolean(selected==='About')}
             setSelected={setSelected}
             path='features'
              />
@@ -48,7 +48,7 @@ const Navbar = ({initialSelected = 'Home'}) => {
             text='Pricing'
             isActive={Boolean(selected==='Pricing')}
             setSelected={setSelected}
-            path='procing'
+            path='pricing'
              />
              <NavOption
             text='Contact Us'

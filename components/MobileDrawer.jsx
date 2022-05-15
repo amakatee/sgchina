@@ -25,7 +25,7 @@ const MobileDrawer = ({selected, setSelected, setNavShow}) => {
             text='Pricing'
             isActive={Boolean(selected==='Pricing')}
             setSelected={setSelected}
-            path='procing'
+            path='pricing'
              />
         <NavOption
             text='Contact Us'
