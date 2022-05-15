@@ -50,12 +50,12 @@ const Navbar = ({initialSelected = 'Home'}) => {
             setSelected={setSelected}
             path='pricing'
              />
-             <NavOption
+             {/* <NavOption
             text='Testimonial'
             isActive={Boolean(selected==='Testimonial')}
             setSelected={setSelected}
             path='testimonial'
-             />
+             /> */}
              <NavOption
             text='Contact Us'
             isActive={Boolean(selected==='Contact Us')}
