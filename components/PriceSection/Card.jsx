@@ -45,7 +45,7 @@ const Card = ({data}) => {
         </div>
 
         
-        <button className='header__button'>Get In Touch</button>
+        {/* <button className='header__button'>Get In Touch</button> */}
        
     </div>
   )

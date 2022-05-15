@@ -5,7 +5,7 @@ import MobileDrawer from './../components/MobileDrawer'
 
 import NavOption from './../components/NavOption'
 const style = {
-    header: `w-screen absolute top-0 left-0 sticky bg-[white]` ,
+    header: `w-screen absolute top-0 left-0 sticky bg-[white] z-50` ,
     navbar:`flex justify-between align-center h-[10vh] w-[90vw] mx-auto bg-[#0000011] items-center`,
     navigation:` sm:hidden md:flex  cursor-pointer md:justify-between md:items-center md:gap-10  `,
    
@@ -49,6 +49,12 @@ const Navbar = ({initialSelected = 'Home'}) => {
             isActive={Boolean(selected==='Pricing')}
             setSelected={setSelected}
             path='pricing'
+             />
+             <NavOption
+            text='Testimonial'
+            isActive={Boolean(selected==='Testimonial')}
+            setSelected={setSelected}
+            path='testimonial'
              />
              <NavOption
             text='Contact Us'

@@ -6,7 +6,7 @@ export const featuresData = [
     },
     {
         id: 2,
-        title: 'Send Your Package to our warehouse',
+        title: 'Send the Package ',
         description: 'Provide us your domestic track code. Using our service you can send package to your customer, friend or to your door. We only require adress of the destination'
     },
     {
