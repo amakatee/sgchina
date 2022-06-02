@@ -31,7 +31,7 @@ const Pricing = () => {
         <Carousel 
             responsive={responsive}
             // infinite={true}
-            ssr={true}
+            // ssr={true}
             customButtonGroup={<CarouselButtom />}
             renderButtonGroupOutside={true}
             arrows={false}

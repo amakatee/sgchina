@@ -5,9 +5,9 @@ import FeaturesItem from './FeaturesItem'
 
 const Features = () => {
   return (
-    <div id='features'
+    <div id='about'
     className='grid content-center w-screen h-screen' >
-        <SectionHeader text="How does it Work?" />
+        <SectionHeader text="Why Us?" />
          <div className=' features-custom'>
              
            <div className='w-[90vw]  mx-auto flex items-center gap-10 justify-around mobile-fetures' >

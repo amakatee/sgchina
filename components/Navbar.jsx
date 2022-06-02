@@ -26,7 +26,7 @@ const Navbar = ({initialSelected = 'Home'}) => {
   return (
    <div className={style.header}> 
     <div className={style.navbar}>
-        <Logo text='SFChina'/>
+        <Logo text='SFC'/>
         <div className='cursor-pointer sm:hidden md:flex md:justify-between md:items-center md:gap-10 mobile-hidden'>
          
             <NavOption
@@ -37,10 +37,15 @@ const Navbar = ({initialSelected = 'Home'}) => {
       
           
              />
-            
-            <NavOption
+               <NavOption
             text='About Us'
-            isActive={Boolean(selected==='About')}
+            isActive={Boolean(selected==='About Us')}
+            setSelected={setSelected}
+            path='about'
+             />
+            <NavOption
+            text='Features'
+            isActive={Boolean(selected==='Features')}
             setSelected={setSelected}
             path='features'
              />
@@ -50,6 +55,7 @@ const Navbar = ({initialSelected = 'Home'}) => {
             setSelected={setSelected}
             path='pricing'
              />
+           
              {/* <NavOption
             text='Testimonial'
             isActive={Boolean(selected==='Testimonial')}
@@ -67,12 +73,16 @@ const Navbar = ({initialSelected = 'Home'}) => {
         </div>
         <div className='flex items-center justify-center gap-4'>
        
-        <button className='header__button'> Get An Account </button>
-        <GiHamburgerMenu 
+      <a href='https://shipfc.netlify.app' target='_blank'> <button className='header__button'>Get An Account </button></a> 
+        {/* <GiHamburgerMenu 
         className='cursor-pointer mobile-toggle' 
         size={25}
         onClick={() => handleToggle()}
-         />
+         /> */}
+         <div className='flex flex-col gap-1 cursor-pointer mobile-toggle' onClick={() => handleToggle()}>
+           <div className='w-[25px] h-[2px] bg-[#000000]'></div>
+           <div className='w-[25px] h-[2px] bg-[#000000]'></div>
+         </div>
         </div>
         {navShow &&
          <MobileDrawer  selectd={selected} setSelected={setSelected} setNavShow={setNavShow} /> }

@@ -1,17 +1,18 @@
 export const featuresData = [
     {
         id: 1,
-        title: 'Register with Email',
-        description: 'We providing help with shipping items from mainland sellers that do not provide overseas direct shipping, such as Taobao sellers, WeChat Sellers, etc.'
+        title: 'Shipping Worldwide ',
+        description: 'Ship to your door, including all the taxes. '
     },
     {
         id: 2,
-        title: 'Send the Package ',
-        description: 'Provide us your domestic track code. Using our service you can send package to your customer, friend or to your door. We only require adress of the destination'
+        title: 'Best choice for dropshippers.',
+        description: ' Providing help with shipping items from mainland sellers that do not provide overseas direct shipping, such as Taobao, WeChat Sellers, etc.'
     },
+  
     {
         id: 3,
-        title: 'Pay in crypto',
-        description: 'Crypto payment is available from anywhere in the world in a few clicks, after committing the payment you will receive a tracking code within 6-36 hours. Customer survice avaible 24/7'
+        title: 'Pay with MetaMask',
+        description: 'Easy billing from anywhere in the world.'
     }
 ]

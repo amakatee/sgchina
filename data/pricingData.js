@@ -16,13 +16,13 @@ export const pricingData = [
     {
         id:3 ,
         method: 'UK Royal Mail',
-        pricePerKg: '25',
-        textPerKg: 'first kg',
+        pricePerKg: '13',
+        textPerKg: '.5kg',
         pricePerHalf: '9',
         textPerHalf: 'additional .5kg',
         weightSegment: '0-20 kg',
         shipIn: '4 days Fastest',
-        description: 'Can send shoes, clothes, bags, domestic brands, solid cosmetics, electronic products(non-internal electrocity) etc',
+        description: 'Shoes, clothes, bags, domestic brands, solid cosmetics, electronic products(non-internal electrocity) etc',
         forbidden: 'Foreign Brands, magnets, sensative products'
      
 
@@ -31,13 +31,13 @@ export const pricingData = [
     {
         id: 3,
         method: 'UK EMS',
-        pricePerKg: '39',
-        textPerKg: 'first kg',
+        pricePerKg: '23',
+        textPerKg: '.5 kg',
         pricePerHalf: '11',
         textPerHalf: 'additional .5kg',
         weightSegment: '0-20 kg',
         shipIn: `7-30 days`,
-        description: 'Can send 99% of goods: cosmetics, brands, liquids, medicines, batteries, adult products etc'
+        description: '99% of goods: cosmetics, brands, liquids, medicines, batteries, adult products etc'
 
     }
 ]

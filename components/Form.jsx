@@ -150,10 +150,11 @@ const Form = () => {
         </FormControlLabel>
         <div>{errors.Agreement && <span className='req-form'>{errors.Agreement.message}</span>} </div>
         </Grid> */}
-        
-        <button className='grid content-center header__button mt-[1rem]'> Send a message </button>
-
+       
       </Grid>
+      <div className='btn-cont'>
+        <button className=' send__button'> Send a message </button>
+        </div>
     
      
      
