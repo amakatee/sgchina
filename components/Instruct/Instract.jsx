@@ -62,7 +62,7 @@ const Instract = () => {
         </div>
         <div className='how-card'>
             <div className='how-text'>
-                <p>After receiving payment, you will receive an international tracking number and will be able to track your package.
+                <p>After payment is completed, you will receive an international tracking number and will be able to track your package.
                 </p>
 
             </div>

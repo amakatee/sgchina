@@ -124,6 +124,8 @@
     flex: 1;
     text-align: start;
     padding-block: 2vh;
+   
+
 
 
   
@@ -138,6 +140,8 @@
     font-size: .8rem;
     letter-spacing: 2px;
     font-weight: 400;
+   
+
  
 }
 .feature-item-title span {
@@ -148,6 +152,7 @@
     font-size: .75rem;
     letter-spacing: 1.1px;
     font-weight: 300;
+    
 }
 /* Features Ends */
 
