@@ -9,6 +9,7 @@ const Layout = ({children}) => {
     <meta name="title" content="Ship From China -Import from China - SFC"/>
       <meta name="description" content="Importing from China offers many opportunities. Tips for importing goods from China."></meta>
       <meta property='og:title' content="Import from China. Fast shipping in a few Steps" />
+      <meta name="google-site-verification" content="ekJjGt66RkVIPuD-EczHFZfWUKB9o2Zll69H7F4nIrg" />
      
     </Head>
     <Navbar />
