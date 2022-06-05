@@ -32,7 +32,7 @@ const Pricing = () => {
             responsive={responsive}
             infinite={true}
             // ssr={true}
-            // transitionDuration={5000}
+            // transitionDuration={2000}
             customButtonGroup={<CarouselButtom />}
             renderButtonGroupOutside={true}
             arrows={false}

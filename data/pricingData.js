@@ -1,7 +1,7 @@
 export const pricingData = [
     {
         id: 1,
-        method: 'UK Econom',
+        method: 'UK by Sea',
         pricePerKg: '12',
         textPerKg: 'kg',
         weightSegment:' 31-50 kg',
