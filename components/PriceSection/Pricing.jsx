@@ -30,8 +30,9 @@ const Pricing = () => {
         <div className='w-[90vw] mx-auto  cards-row'>
         <Carousel 
             responsive={responsive}
-            // infinite={true}
+            infinite={true}
             // ssr={true}
+            // transitionDuration={5000}
             customButtonGroup={<CarouselButtom />}
             renderButtonGroupOutside={true}
             arrows={false}
