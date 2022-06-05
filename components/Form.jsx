@@ -162,7 +162,7 @@ const Form = () => {
     </form>
     </div>
 
-   {show &&  <div className='success-mes'>Спасибо за обращение! <br /> Мы скоро с вами свяжемся!</div>}
+   {show &&  <div className='success-mes'>Thank You! <br />We'll contact you ASAP!</div>}
   {overlay && <div onClick={() => closingOnClick()} className='form-overlay'></div>} 
     </section>
  
